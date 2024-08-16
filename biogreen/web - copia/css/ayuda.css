@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav {
+  background-color: #A9CF82;
+}
+
+.d-flex{
+    
+  margin: 2px 15px 0px 0px ;
+ width: 45vw;
+
+}
+
+
+.carrit{
+margin: 15px 20px 0px 50px ; 
+color: black;
+
+}
+
+.persona{
+margin: 20px 0px 0px 42px ; 
+color: black;
+}
+.inicio{
+text-decoration: none; 
+color: black;
+}
+.ingresar{
+margin: 20px 0px 0px 10px ; 
+}
+
+.tablas {
+list-style-type: none;
+margin: 0;
+padding: 0px 0px 10px 0px;
+overflow: hidden;
+background-color: #fff;
+display: flex; /* Cambiamos a flexbox para alinear elementos */
+justify-content: center; 
+
+}
+
+.tablas li {
+margin: 0 10px; /* Espacio entre elementos */
+
+}
+
+.tablas li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.tablas li a:hover {
+background-color: #111;
+}
+.favorit{
+text-decoration: none;
+color: #fff; /* Color de texto */
+padding: 5px 10px; /* Ajusta el espacio interno según tu diseño */
+border: 1px solid #A9CF82; /* Borde alrededor de los enlaces */
+border-radius: 5px; /* Bordes redondeados */
+justify-content: center;
+text-align: center;
+background-color: #A9CF82;
+
+}
+
+
+.report{
+text-decoration: none;
+color: #fff; /* Color de texto */
+padding: 5px 10px; /* Ajusta el espacio interno según tu diseño */
+border: 1px solid #A9CF82; /* Borde alrededor de los enlaces */
+border-radius: 5px; /* Bordes redondeados */
+justify-content: center;
+text-align: center;
+background-color: #A9CF82;
+
+}
+
+
+.ofert{
+text-decoration: none;
+color: #fff; /* Color de texto */
+padding: 5px 10px; /* Ajusta el espacio interno según tu diseño */
+border: 1px solid #A9CF82; /* Borde alrededor de los enlaces */
+border-radius: 5px; /* Bordes redondeados */
+justify-content: center;
+text-align: center;
+background-color: #A9CF82;
+}
+.ayud{
+text-decoration: none;
+color: #fff; /* Color de texto */
+padding: 5px 10px; /* Ajusta el espacio interno según tu diseño */
+border: 1px solid #A9CF82; /* Borde alrededor de los enlaces */
+border-radius: 5px; /* Bordes redondeados */
+justify-content: center;
+text-align: center;
+background-color: #A9CF82;
+}
+
+.pagos{
+
+text-decoration: none;
+color: #fff; /* Color de texto */
+padding: 5px 10px; /* Ajusta el espacio interno según tu diseño */
+border: 1px solid #A9CF82; /* Borde alrededor de los enlaces */
+border-radius: 5px; /* Bordes redondeados */
+justify-content: center;
+text-align: center;
+background-color: #A9CF82;
+}
+@media screen and (max-width: 600px) {
+.tablas {
+  flex-direction:initial ; /* Cambiamos a columna para móviles */
+  align-items: center; /* Centramos los elementos en móviles */
+}
+.tablas li {
+  margin: 5px 5px; /* Espacio entre elementos en móviles */
+}
+
+}
+
+.ingresar {
+  margin: 20px 0px 0px 10px;
+}
+
+.regreso {
+  margin: 5px 0px 0px 20px;
+}
+
+.comienzo {
+  text-decoration: none;
+  color: #020202;
+}
+
+.comienzo:hover {
+  color: #85929E;
+}
+
+.tit {
+  
+  margin: 0 auto; /* Centra horizontalmente */
+  padding: 0;
+  border-radius: 8px;
+  max-width: 80%; /* Ajusta esto según sea necesario */
+  display: flex;
+  justify-content: left;
+}
+
+.titulo {
+  padding: 10px 20px;
+  font-size: 30px;
+  position: relative;
+}
+
+
+
+.section1 {
+  width: 90%;
+  max-width: 250px;
+  height: 230px;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 40px;
+}
+
+.aside1 {
+  width: 90%;
+  max-width: 500px;
+  height: 300px;
+  background-color: beige;
+  margin: 10px auto;
+  padding: 40px 30px 0px 30px;
+  border-radius: 8px;
+}
+
+.subti {
+  text-align: center;
+}
+
+.main1, .main2 {
+  flex: 1;
+  margin: 25px 0px;
+}
+
+.section2 {
+  width: 90%;
+  max-width: 500px;
+  height: 450px;
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 40px;
+}
+
+.aside2 {
+  width: 90%;
+  max-width: 300px;
+  height: 450px;
+  margin: 10px auto;
+  padding: 40px 30px 0px 30px;
+  border-radius: 8px;
+}
+
+.lista {
+  list-style: none;
+  text-align: left;
+}
+
+.text {
+  text-align: left;
+  padding: 20px 5px;
+}
+
+.num2 {
+  padding: 7px 0px;
+}
+
+
+/* Media query para dispositivos móviles */
+@media (max-width: 768px) {
+  .pag {
+      margin-top: 20px; /* Aumenta el espacio por encima del footer en dispositivos móviles */
+      padding: 15px; /* Ajusta el padding según sea necesario */
+  }
+}
+
+
+
+/* Media Queries para Responsividad */
+@media (min-width: 768px) {
+  .tit {
+    margin: 0px 220px 0px 230px; /* Restablece los márgenes específicos para computadoras */
+  }
+
+  .titulo {
+    padding: 10px 20px;
+    max-width: none; /* Asegura que el título ocupe todo el contenedor en computadoras */
+  }
+
+  .section1 {
+    float: left;
+    margin: 10px 50px 0px 275px;
+  }
+
+  .aside1 {
+    float: right;
+    margin: 10px 250px 0px 0px;
+  }
+
+  .section2 {
+    float: left;
+    margin: 10px 0px 0px 275px;
+  }
+
+  .aside2 {
+    float: right;
+    margin: 10px 250px 0px 0px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .tit {
+    max-width: 100%; /* Ajusta el contenedor al ancho de la pantalla */
+  }
+
+  .section1 {
+    margin-bottom: 20px;
+    margin: 5px 90px;
+  }
+
+  .aside1 {
+    margin-top: 100px;
+  }
+}
+
+
+.pag {
+  position: relative;
+  z-index: 1; /* Asegura que esté sobre otros elementos si es necesario */
+  margin-top: 20px; /* Agrega espacio por encima del footer */
+  padding: 10px; /* Ajusta el padding según sea necesario */
+  background-color: #A9CF82;
+}
+
+.pag .pie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pag .pie ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+}
+.barras{
+  display: flex;
+  
+}
+.btn-sec{
+  margin: 0px 20px ;
+  font-family: 'Merriweather', serif;
+}
+
+.btn-iconmayor{
+  display: flex;
+  text-align: center;
+  
+}
+.btn-iconos1{
+  margin: 0px 20px 0px 145px;
+}
+.btn-iconos2{
+  margin: 0px 20px 0px 0px;
+}
+.btn-iconos3{
+  margin: 0px 20px 0px 0px;
+}
+
+.termi{
+  text-align: center;
+}
+.logo{
+  text-align: center;
+}
